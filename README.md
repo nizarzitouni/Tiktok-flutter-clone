@@ -1,16 +1,31 @@
-# tiktok_clone
+# Project Name
 
-A new Flutter project.
+Flutter Tiktok Clone with Firebase Backend
 
-## Getting Started
+## Description
 
-This project is a starting point for a Flutter application.
+This repository contains the source code for a mobile application that replicates the functionality of Tiktok using the Flutter framework. The app allows users to create and share short videos, follow other users, and discover new content. The app uses Firebase as a backend to store user data, video content, and user-generated content.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- User registration and authentication
+- Video creation and editing tools
+- User profiles and follow functionality
+- Feed and discover pages for viewing content
+- Firebase integration for storing and managing user data and content
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Clone the repository to your local machine.
+2. Navigate to the project directory in your terminal.
+3. Run `flutter pub get` to install the required dependencies.
+4. Create a Firebase project and add your configuration files to the `android/app` and `ios/Runner` directories.
+5. Run the app using `flutter run` command.
+
+## Contributing
+
+Contributions to the project are welcome! Please see the [CONTRIBUTING.md](CONTRIBUTING.md) file for guidelines on how to contribute.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
