@@ -1,13 +1,13 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class Comment {
-  String username;
-  String comment;
+  final String username;
+  final String comment;
   final datePublished;
   List likes;
-  String profilePhoto;
-  String uid;
-  String id;
+  final String profilePhoto;
+  final String uid;
+  final String id;
 
   Comment({
     required this.username,
